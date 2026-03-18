@@ -103,9 +103,9 @@
   margin-right: 30px;
 }
 /* index bottom style */
-/* .botom-content{
-   
-} */
+.botom-content{
+   margin-top: 20px;
+}
 
 .Client-text {
   display: flex;
@@ -120,40 +120,107 @@
   font-family: sans-serif;
   font-size: 15px;
 }
-.bottom-logo{
-    display: flex;
-    justify-content: center;
+.bottom-logo {
+  display: flex;
+  justify-content: center;
 }
-.index-logo{
-    width: 1100px;
+.index-logo {
+  width: 1100px;
 }
 /* Bottom bold text */
-.bold-text-1,.bold-text-2,.smal-text{
-    display: flex;
-    justify-content: center;
-     font-family: sans-serif;
+.bold-text-1,
+.bold-text-2,
+.smal-text {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
 }
-.bold-text-1,.bold-text-2{
-    font-size: 20px;
-    font-weight: 600;
+.bold-text-1,
+.bold-text-2 {
+  font-size: 20px;
+  font-weight: 600;
 }
-.smal-text{
-    font-size: 10px;
+.smal-text {
+  font-size: 10px;
 }
-.index-bottom{
+.index-bottom {
   display: flex;
   justify-content: space-around;
-
+  margin-top: 20px;
 }
-.index-bottom-img{
+.index-bottom-img {
   width: 150px;
   height: 100px;
 }
 /* bottom image  */
-.bottom-img{
+.bottom-img {
   width: 200px;
   text-align: center;
 }
-.bottom-ptext{
-  font-size: 14px;
+.bottom-ptext {
+  font-size: 13px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* forth position */
+.forth-position-img {
+  width: 250px;
+  height: 250px;
+}
+.forth-position {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.forth-position-leftside-content {
+  width: 400px;
+}
+#forth-position-text {
+    font-family: sans-serif;
+
+  font-size: 13px;
+  margin-top: 10px;
+}
+span {
+  font-weight: 600;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.forth-position-btn {
+  background-color: #2f9131;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+/* 5th position */
+.fifthposition {
+  height: 200px;
+  background-color: #83797931;
+}
+.fifthposition {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fifth-leftside {
+  width: 400px;
+}
+.fifth-rightside-img {
+  width: 300px;
+}
+.fifth-greentext {
+  font-weight: 600;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #4bab4d;
+}
+.fifth-smaltext{
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
